@@ -76,6 +76,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock unity-backlit-items true
 cp ./img/desktop.jpg ~/desktop.jpg
 cp ./img/lock.jpg ~/lock.jpg
 dconf load /org/gnome/ < ../../settings.dconf
+
 gsettings set org.gnome.desktop.sound event-sounds false
 gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
 
