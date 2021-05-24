@@ -3,9 +3,6 @@
 # Bash script to install apps on a new system (Ubuntu)
 #######################################
 
-## Update packages and Upgrade system
-sudo apt-get update -y
-
 ## Git ##
 echo '###Installing Git..'
 sudo apt-get install git -y
@@ -28,12 +25,14 @@ git config --list
 
 ## Curl ##
 echo '###Installing Curl..'
-sudo apt install curl
+sudo apt install curl -y
+sudo apt update
 curl --version
 
 ## Node.js / NVM ##
 echo '###Installing Node.js and NVM..'
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+sudo apt update
 nvm list-remote
 nvm install lts/fermium
 node -v
@@ -41,6 +40,7 @@ node -v
 ## Browsers ##
 echo '###Installing Browsers..'
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt update
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 ## Tweak Tool ##
@@ -48,17 +48,21 @@ echo '###Installing Tweak Tool..'
 sudo add-apt-repository universe
 sudo apt install gnome-tweak-tool
 sudo apt install gnome-shell-extensions
+sudo apt update
 
 echo '###Installing dconf-editor..'
 sudo apt install dconf-editor
+sudo apt update
 
 ## VLC ##
 echo '###Installing VLC..'
 sudo apt remove vlc
 sudo snap install vlc
+sudo apt update
 
 ## Webstorm ##
 echo '###Installing Webstorm'
+sudo apt remove webstorm --classic
 sudo snap install webstorm --classic
 
 echo '###config dash-to-dock..'
