@@ -91,7 +91,7 @@ cp ./img/lock.jpg ~/lock.jpg
 dconf load /org/gnome/ < ../../settings.dconf
 
 gsettings set org.gnome.desktop.sound event-sounds false
-gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
+gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-dark'
 gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:
 
 gsettings set org.gnome.shell favorite-apps "['google-chrome.desktop', 'brave-browser.desktop', 'firefox.desktop', 'jetbrains-webstorm.desktop', 'jetbrains-goland.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Nautilus.desktop', 'snap-store_ubuntu-software.desktop', 'gnome-control-center.desktop', 'gnome-system-monitor.desktop', 'xsensors.desktop', 'org.gnome.Calculator.desktop']"
