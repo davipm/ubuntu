@@ -32,6 +32,7 @@ curl --version
 ## Node.js / NVM ##
 echo '###Installing Node.js and NVM..'
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+source ~/.bashrc
 sudo apt update
 nvm list-remote
 nvm install lts/fermium
