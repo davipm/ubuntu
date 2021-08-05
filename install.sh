@@ -3,9 +3,11 @@
 # Bash script to install apps on a new system (Ubuntu)
 #######################################
 
+sudo apt update && sudo apt full-upgrade -y
+
 ## Git ##
 echo '###Installing Git..'
-sudo apt-get install git -y
+sudo apt-get install -y git
 
 # Git Configuration
 echo '###Congigure Git..'
@@ -24,29 +26,31 @@ echo 'Git has been configured!'
 git config --list
 
 ## Curl ##
-echo '###Installing Curl..'
-sudo apt install curl -y
-sudo apt update
+echo '###Installing Curl..###'
+sudo apt install -y curl
+curl --version
+
+## Wget ##
+echo '###Installing Wget..###'
+sudo apt install -y wget
 curl --version
 
 ## Node.js / NVM ##
-echo '###Installing Node.js and NVM..'
+echo '###Installing Node.js and NVM..###'
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 source ~/.bashrc
-sudo apt update
 nvm list-remote
 nvm install lts/fermium
 node -v
 
 ## Browsers ##
-echo '###Installing Browsers..'
+echo '###Installing Browsers..###'
 
-echo '###Installing Chrome..'
+echo '###Installing Chrome..###'
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt update
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
-echo '###Installing Brave Browser..'
+echo '###Installing Brave Browser..###'
 sudo apt install apt-transport-https curl
 
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
@@ -62,22 +66,19 @@ echo '###Installing Tweak Tool..'
 sudo add-apt-repository universe
 sudo apt install gnome-tweak-tool
 sudo apt install gnome-shell-extensions
-sudo apt update
 
 echo '###Installing dconf-editor..'
 sudo apt install dconf-editor
-sudo apt update
 
 ## VLC ##
 echo '###Installing VLC..'
-sudo apt remove vlc
-sudo snap install vlc
-sudo apt update
+sudo apt remove -y vlc
+sudo snap install -y vlc
 
-## Webstorm ##
-echo '###Installing Webstorm'
-sudo apt remove webstorm --classic
-sudo snap install webstorm --classic
+## GIMP ##
+echo '###Installing GIMP###'
+sudo apt remove -y gimp
+sudo snap install -y gimp
 
 echo '###config dash-to-dock..'
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
@@ -85,11 +86,6 @@ gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
 gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode FIXED
 gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 30 ## or 64
 gsettings set org.gnome.shell.extensions.dash-to-dock unity-backlit-items true
-
-# Set up the desktop environment
-cp ./img/desktop.jpg ~/desktop.jpg
-cp ./img/lock.jpg ~/lock.jpg
-dconf load /org/gnome/ < ../../settings.dconf
 
 gsettings set org.gnome.desktop.sound event-sounds false
 gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-dark'
@@ -99,9 +95,6 @@ gsettings set org.gnome.shell favorite-apps "['google-chrome.desktop', 'brave-br
 
 ## Finishing ##
 echo '###Finishing...'
-sudo apt update && sudo apt upgrade
+sudo apt upgrade -y
 sudo apt autoremove -y
 source ~/.bashrc
-
-# Fun hello
-figlet "... Hello Weeabo!" | lolcat
