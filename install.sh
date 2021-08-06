@@ -59,13 +59,13 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 
 sudo apt update
 
-sudo apt install brave-browser
+sudo apt install -y brave-browser
 
 ## Tweak Tool ##
 echo '###Installing Tweak Tool..'
 sudo add-apt-repository universe
-sudo apt install gnome-tweak-tool
-sudo apt install gnome-shell-extensions
+sudo apt install -y gnome-tweak-tool
+sudo apt install -y gnome-shell-extensions
 
 echo '###Installing dconf-editor..'
 sudo apt install dconf-editor
