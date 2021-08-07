@@ -28,12 +28,10 @@ git config --list
 ## Curl ##
 echo '###Installing Curl..###'
 sudo apt install -y curl
-curl --version
 
 ## Wget ##
 echo '###Installing Wget..###'
 sudo apt install -y wget
-curl --version
 
 ## Node.js / NVM ##
 echo '###Installing Node.js and NVM..###'
@@ -41,7 +39,6 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 source ~/.bashrc
 nvm list-remote
 nvm install lts/fermium
-node -v
 
 ## Browsers ##
 echo '###Installing Browsers..###'
