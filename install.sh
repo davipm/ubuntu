@@ -70,12 +70,12 @@ sudo apt install dconf-editor
 ## VLC ##
 echo '###Installing VLC..'
 sudo apt remove -y vlc
-sudo snap install -y vlc
+sudo snap install vlc
 
 ## GIMP ##
 echo '###Installing GIMP###'
 sudo apt remove -y gimp
-sudo snap install -y gimp
+sudo snap install gimp
 
 echo '###config dash-to-dock..'
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
