@@ -83,7 +83,10 @@ gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
 gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode FIXED
 gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 30 ## or 64
 gsettings set org.gnome.shell.extensions.dash-to-dock unity-backlit-items true
+
+gsettings set org.gnome.desktop.a11y always-show-universal-access-status true
 gsettings set org.gnome.desktop.interface text-scaling-factor 1.03
+gsettings get org.gnome.desktop.interface cursor-size 32
 
 gsettings set org.gnome.desktop.sound event-sounds false
 gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-dark'
