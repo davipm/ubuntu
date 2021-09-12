@@ -35,10 +35,9 @@ sudo apt install -y wget
 
 ## Node.js / NVM ##
 echo '###Installing Node.js and NVM..###'
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 source ~/.bashrc
-nvm list-remote
-nvm install lts/fermium
+nvm install 'lts/*' --reinstall-packages-from=current
 
 ## Browsers ##
 echo '###Installing Browsers..###'
