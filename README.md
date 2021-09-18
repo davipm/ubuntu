@@ -3,7 +3,7 @@
 my personal configuration files
 
 
-## Aditional Programs:
+## Additional Programs:
 
 ### Webstorm:
 https://www.jetbrains.com/pt-br/webstorm/ <br/>
