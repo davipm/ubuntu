@@ -64,17 +64,15 @@ sudo apt install -y gnome-tweak-tool
 sudo apt install -y gnome-shell-extensions
 
 echo '###Installing dconf-editor..'
-sudo apt install dconf-editor
+sudo apt install -y dconf-editor
 
 ## VLC ##
 echo '###Installing VLC..'
-sudo apt remove -y vlc
-sudo snap install vlc
+sudo apt install -y vlc
 
 ## GIMP ##
 echo '###Installing GIMP###'
-sudo apt remove -y gimp
-sudo snap install gimp
+sudo apt install -y gimp
 
 echo '###config dash-to-dock..'
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
