@@ -7,10 +7,13 @@ my personal configuration files
 
 ### Webstorm:
 https://www.jetbrains.com/pt-br/webstorm/ <br/>
-* Font: JetBrains Mono | 16px | L.H 1.1
+* Font: JetBrains Mono | 16px | L.H 1.1 <br>
 
 ### Responsively:
 https://responsively.app/
+
+### auto-cpufreq
+https://github.com/AdnanHodzic/auto-cpufreq
 
 ## Run install script
 
