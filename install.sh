@@ -85,6 +85,7 @@ gsettings set org.gnome.desktop.a11y always-show-universal-access-status true
 gsettings set org.gnome.desktop.interface text-scaling-factor 1.03
 gsettings get org.gnome.desktop.interface cursor-size 32
 
+gsettings set org.gnome.settings-daemon.plugins.power ambient-enabled false
 gsettings set org.gnome.desktop.sound event-sounds false
 gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-dark'
 gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:
