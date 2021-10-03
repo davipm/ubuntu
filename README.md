@@ -15,6 +15,9 @@ https://responsively.app/
 ### auto-cpufreq
 https://github.com/AdnanHodzic/auto-cpufreq
 
+### Bitwarden
+https://bitwarden.com/
+
 ## Run install script
 
 ``sudo bash install.sh``
