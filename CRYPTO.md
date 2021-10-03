@@ -8,3 +8,6 @@ https://bisq.network/pt-pt/
 
 ### binance
 https://www.binance.com/pt-BR
+
+### Security stuff
+https://www.security.org/vpn/anonymity/
