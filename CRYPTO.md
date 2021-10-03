@@ -3,6 +3,9 @@
 ### Exodus Wallet
 https://www.exodus.com/download/
 
+### Trustwallet
+https://trustwallet.com/pt_BR/
+
 ### bisq
 https://bisq.network/pt-pt/
 
