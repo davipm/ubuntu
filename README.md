@@ -2,10 +2,9 @@
 
 my personal configuration files
 
-
 ## Additional Programs:
 
-### Webstorm:
+### Webstorm 2021.2.2:
 https://www.jetbrains.com/pt-br/webstorm/ <br/>
 * Font: JetBrains Mono | 16px | L.H 1.1 <br>
 
