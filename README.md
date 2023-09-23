@@ -11,9 +11,6 @@ https://www.jetbrains.com/pt-br/webstorm/ <br/>
 ### Responsively:
 https://responsively.app/
 
-### auto-cpufreq
-https://github.com/AdnanHodzic/auto-cpufreq
-
 ### Bitwarden
 https://bitwarden.com/
 
@@ -23,6 +20,7 @@ https://bitwarden.com/
 
 ## Aditional Extensions
 https://extensions.gnome.org/
+https://linuxhint.com/best_gnome_extensions/
 
 1 - https://extensions.gnome.org/extension/750/openweather/ <br/>
 2 - https://extensions.gnome.org/extension/841/freon/
