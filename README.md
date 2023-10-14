@@ -19,8 +19,8 @@ https://bitwarden.com/
 ``sudo bash install.sh``
 
 ## Aditional Extensions
-https://extensions.gnome.org/
-https://linuxhint.com/best_gnome_extensions/
+- https://extensions.gnome.org/
+- https://linuxhint.com/best_gnome_extensions/
 
 1 - https://extensions.gnome.org/extension/750/openweather/ <br/>
 2 - https://extensions.gnome.org/extension/841/freon/
