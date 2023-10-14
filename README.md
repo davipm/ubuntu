@@ -22,8 +22,11 @@ https://bitwarden.com/
 - https://extensions.gnome.org/
 - https://linuxhint.com/best_gnome_extensions/
 
-1 - https://extensions.gnome.org/extension/750/openweather/ <br/>
+1 - https://extensions.gnome.org/extension/750/openweather/
 2 - https://extensions.gnome.org/extension/841/freon/
+3 - https://extensions.gnome.org/extension/1460/vitals/
+4 - https://extensions.gnome.org/extension/1465/desktop-icons/
+5 - https://extensions.gnome.org/extension/945/cpu-power-manager/
 
 ## Keyboard ABNT Configuration
 
