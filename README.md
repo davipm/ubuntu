@@ -4,9 +4,9 @@ my personal configuration files
 
 ## Additional Programs:
 
-### Webstorm 2021.2.2:
+### Webstorm 2023.2.2:
 https://www.jetbrains.com/pt-br/webstorm/ <br/>
-* Font: JetBrains Mono | 16px | L.H 1.1 <br>
+* Font: JetBrains Mono | 17px | L.H 1.1 <br>
 
 ### Responsively:
 https://responsively.app/
@@ -18,15 +18,20 @@ https://bitwarden.com/
 
 ``sudo bash install.sh``
 
-## Aditional Extensions
+## Additional Websites
 - https://extensions.gnome.org/
 - https://linuxhint.com/best_gnome_extensions/
+- https://iriun.com/
+- https://protonvpn.com/
+- https://proton.me/pt-br/mail
+- https://www.morgen.so/
 
-1 - https://extensions.gnome.org/extension/750/openweather/
-2 - https://extensions.gnome.org/extension/841/freon/
-3 - https://extensions.gnome.org/extension/1460/vitals/
-4 - https://extensions.gnome.org/extension/1465/desktop-icons/
-5 - https://extensions.gnome.org/extension/945/cpu-power-manager/
+## Aditional Extensions
+- https://extensions.gnome.org/extension/750/openweather/
+- https://extensions.gnome.org/extension/841/freon/
+- https://extensions.gnome.org/extension/1460/vitals/
+- https://extensions.gnome.org/extension/1465/desktop-icons/
+- https://extensions.gnome.org/extension/945/cpu-power-manager/
 
 ## Keyboard ABNT Configuration
 
