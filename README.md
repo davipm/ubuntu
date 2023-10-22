@@ -21,6 +21,8 @@ https://bitwarden.com/
 ## Additional Websites
 - https://extensions.gnome.org/
 - https://linuxhint.com/best_gnome_extensions/
+- https://itsfoss.com/essential-linux-applications/
+- https://itsfoss.com/improve-privacy/
 - https://iriun.com/
 - https://protonvpn.com/
 - https://proton.me/pt-br/mail
