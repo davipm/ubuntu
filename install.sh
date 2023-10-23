@@ -82,7 +82,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 30 ## o
 gsettings set org.gnome.shell.extensions.dash-to-dock unity-backlit-items true
 
 gsettings set org.gnome.desktop.a11y always-show-universal-access-status true
-gsettings set org.gnome.desktop.interface text-scaling-factor 1.03
+gsettings set org.gnome.desktop.interface text-scaling-factor 1.05
 gsettings get org.gnome.desktop.interface cursor-size 32
 
 gsettings set org.gnome.settings-daemon.plugins.power ambient-enabled false
