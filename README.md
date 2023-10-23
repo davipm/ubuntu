@@ -28,12 +28,20 @@ https://bitwarden.com/
 - https://proton.me/pt-br/mail
 - https://www.morgen.so/
 
-## Aditional Extensions
+## Additional Extensions
 - https://extensions.gnome.org/extension/750/openweather/
 - https://extensions.gnome.org/extension/841/freon/
 - https://extensions.gnome.org/extension/1460/vitals/
 - https://extensions.gnome.org/extension/1465/desktop-icons/
 - https://extensions.gnome.org/extension/945/cpu-power-manager/
+- https://extensions.gnome.org/extension/3193/blur-my-shell/
+- https://extensions.gnome.org/extension/307/dash-to-dock/
+- https://extensions.gnome.org/extension/1319/gsconnect/
+
+## Cursor
+To install more cursors on your Linux system, just put the source folders on “.icons” for the current user, or “/user/share/icons” for all users. Are you a beginner? Then, it’s suggested to put the themes into .icons under your user’s home directory.
+Please Note: It’s a hidden folder. So, open “Files” from the Nautilus file manager. Then, press Ctrl+H to show or hide them.
+- https://www.gnome-look.org/p/1356095
 
 ## Keyboard ABNT Configuration
 

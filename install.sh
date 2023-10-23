@@ -74,6 +74,11 @@ sudo apt install -y vlc
 echo '###Installing GIMP###'
 sudo apt install -y gimp
 
+## Icons ##
+echo '###Installing Icons###'
+sudo add-apt-repository ppa:numix/ppa
+sudo apt install numix-icon-theme-circle
+
 echo '###config dash-to-dock..'
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
