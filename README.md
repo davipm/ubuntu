@@ -28,6 +28,7 @@ https://bitwarden.com/
 - https://proton.me/pt-br/mail
 - https://www.morgen.so/
 - https://github.com/oguzhaninan/Stacer?ref=itsfoss.com
+- https://flathub.org/ ?? https://docs.flatpak.org/en/latest/using-flatpak.html
 
 ## Additional Extensions
 - https://extensions.gnome.org/extension/750/openweather/
