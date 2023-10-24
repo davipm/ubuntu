@@ -27,6 +27,7 @@ https://bitwarden.com/
 - https://protonvpn.com/
 - https://proton.me/pt-br/mail
 - https://www.morgen.so/
+- https://github.com/oguzhaninan/Stacer?ref=itsfoss.com
 
 ## Additional Extensions
 - https://extensions.gnome.org/extension/750/openweather/
