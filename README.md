@@ -48,6 +48,7 @@ Please Note: It’s a hidden folder. So, open “Files” from the Nautilus file
 ## Keyboard ABNT Configuration
 
 ```
+use VS CODE snap store
 vim  /usr/share/X11/xkb/symbols/br
 
 partial alphanumeric_keys
