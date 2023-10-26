@@ -60,7 +60,7 @@ sudo apt install -y brave-browser
 ## Tweak Tool ##
 echo '###Installing Tweak Tool..'
 sudo add-apt-repository universe
-sudo apt install -y gnome-tweak-tool
+sudo apt install -y gnome-tweaks
 sudo apt install -y gnome-shell-extensions
 
 echo '###Installing dconf-editor..'
