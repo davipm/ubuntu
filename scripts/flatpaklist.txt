@@ -6,3 +6,5 @@ org.gnome.Calendar
 org.gnome.baobab
 net.nokyan.Resources
 com.transmissionbt.Transmission
+com.spotify.Client
+com.bitwarden.desktop
