@@ -16,7 +16,16 @@ https://bitwarden.com/
 
 ## Run install script
 
-``sudo bash install.sh``
+```
+chmod +x pre_install.sh
+sudo ./pre_install.sh
+
+chmod +x install_apps.sh
+sudo ./install_apps.sh
+
+chmod +x after_install.sh
+sudo ./after_install.sh
+```
 
 ## Additional Websites
 - https://extensions.gnome.org/

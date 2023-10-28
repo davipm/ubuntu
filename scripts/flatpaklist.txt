@@ -1,0 +1,8 @@
+org.videolan.VLC
+org.gimp.GIMP
+io.github.flattool.Warehouse
+us.zoom.Zoom
+org.gnome.Calendar
+org.gnome.baobab
+net.nokyan.Resources
+com.transmissionbt.Transmission
