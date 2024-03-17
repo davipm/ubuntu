@@ -4,7 +4,7 @@ my personal configuration files
 
 ## Additional Programs:
 
-### Webstorm 2023.2.2:
+### Webstorm 2023.2.5:
 https://www.jetbrains.com/pt-br/webstorm/ <br/>
 * Font: JetBrains Mono | 17px | L.H 1.1 <br>
 
